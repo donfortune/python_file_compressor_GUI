@@ -26,6 +26,6 @@ while True:
     filepaths = values['files'].split(';')
     folders = values['folders']
     create_zip(filepaths, folders)
-    window["output"].update(value="compressed successfully ")
+    window["output"].update(value="compressed was done successfully ")
 
 window.close()
